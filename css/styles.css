@@ -1,0 +1,128 @@
+.navbar-brand{
+    display: inline-flex;
+    font-size: larger;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: black;
+}
+#buttonModel{
+    text-transform: initial;
+    font-weight: 550;
+    text-align: start;
+    
+    border-bottom: black;
+    border-style: solid;
+}
+
+#buttonModel:focus{
+    -webkit-box-shadow: none!important;
+    box-shadow: none!important;
+}
+
+
+.dots{
+    display:inline-block;
+		width:6px;
+		height:6px;
+		border-radius:50%;
+		
+        background:#303131;
+        animation: bounce 1s infinite;
+        -webkit-animation: bounce 1s infinite;
+        -moz-animation: bounce 1s infinite;
+        -o-animation: bounce 1s infinite;
+      
+}
+.dots:nth-child(1) {
+    margin-left: 20px;
+    
+    background:yellow;
+    
+   
+}
+.dots:nth-child(2) {
+    
+    background:gray;
+    animation-delay: 0.1s;
+    
+  
+}
+.dots:nth-child(3) {
+    
+    background:green;
+    animation-delay: 0.2s;
+    
+}
+.dots:nth-child(4) {
+   
+    background:red;
+    animation-delay: 0.3s;
+   
+}
+
+@-webkit-keyframes bounce {
+	0%, 20%, 50%, 80%, 100% {-webkit-transform: translateY(0);}	
+	40% {-webkit-transform: translateY(-30px);}
+	60% {-webkit-transform: translateY(-15px);}
+}
+ 
+@-moz-keyframes bounce {
+	0%, 20%, 50%, 80%, 100% {-moz-transform: translateY(0);}
+	40% {-moz-transform: translateY(-30px);}
+	60% {-moz-transform: translateY(-15px);}
+}
+ 
+@-o-keyframes bounce {
+	0%, 20%, 50%, 80%, 100% {-o-transform: translateY(0);}
+	40% {-o-transform: translateY(-30px);}
+	60% {-o-transform: translateY(-15px);}
+}
+@keyframes bounce {
+	0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+	40% {transform: translateY(-30px);}
+	60% {transform: translateY(-15px);}
+}
+
+/* menu icon */
+.menu-icon {
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  .bar1{
+    width: 50px;
+    height: 7px;
+    background-color:yellow;
+    margin: 6px 0;
+    transition: 0.4s;
+
+  }
+  .bar2{
+    width: 50px;
+    height: 7px;
+    background-color: yellowgreen;
+    margin: 6px 0;
+    transition: 0.4s;
+
+  } 
+  .bar3 {
+    width: 50px;
+    height: 7px;
+    background-color: red;
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+ 
+  #menuIcon:focus{
+    -webkit-box-shadow: none!important;
+    box-shadow: none!important;
+}
+#menuIcon#bar1:hover{
+
+}
+#menuIcon#bar2:hover{
+
+}
+#menuIcon#bar3:hover{
+
+}
