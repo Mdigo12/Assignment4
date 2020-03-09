@@ -130,7 +130,7 @@
 }
 .icons{
   text-align: right;
-  background-color: blue;
+  /* background-color: blue; */
 }
 i.fa {
     border: 1px solid red;
@@ -153,4 +153,32 @@ i.fa {
   padding: 5px;
 }
 
-
+header{
+  position: absolute;
+  z-index: 1;
+}
+.content{
+  width: 98%;
+  position: absolute;
+}
+footer{
+  padding: 5px;
+  width: 98%; 
+  position: absolute; 
+  z-index: 1;
+  top: 85%;
+  overflow: hidden; 
+}
+.footer{
+  color: white;
+}
+.footer a{
+  text-decoration: none;
+  color: white;
+}
+#privacy{
+  margin-left: 20px;
+}
+.carousel-item{
+  height: 100vh !important;
+}
