@@ -1,15 +1,24 @@
 
 .navbar-brand{
-    display: inline-flex;
     font-size: larger;
     font-weight: 700;
     text-transform: uppercase;
     color: black;
 }
+.modal-dialog {
+  /* width: 900px !important; */
+  /* background-color: tomato; */
+  /* height: 100% !important ; */
+}
+.info h3{
+  color: red;
+  text-transform: capitalize;
+  font-weight: bolder;
+}
 #buttonModel{
     text-transform: initial;
     font-weight: 550;
-    text-align: start;
+    text-align: center;
     
     border-bottom: black;
     border-style: solid;
@@ -114,6 +123,10 @@
     margin: 6px 0;
     transition: 0.4s;
   }
+  #menuIcon{
+    text-align: end;
+
+  }
  
   #menuIcon:focus{
     -webkit-box-shadow: none!important;
@@ -180,5 +193,11 @@ footer{
   margin-left: 20px;
 }
 .carousel-item{
-  height: 100vh !important;
+ 
 }
+.carousel-inner>.carousel-item>img {
+  height: 100vh !important;
+  display: block;
+  opacity: 0.8;
+  width: 100%; 
+  }
