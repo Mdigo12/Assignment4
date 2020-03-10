@@ -10,11 +10,45 @@
   /* background-color: tomato; */
   /* height: 100% !important ; */
 }
+.modal-title{
+  color: rgba(4, 53, 85, 0.952);
+  font-family: 'Francois One', sans-serif;
+}
 .info h3{
   color: red;
   text-transform: capitalize;
   font-weight: bolder;
 }
+.info p.underline{
+  border-top: black;
+  border-top: solid;
+  border-top-width: 1px;
+  margin-top: 10px;
+}
+
+.info a{
+  text-decoration: none;
+  /* display: block; */
+  text-transform: uppercase;
+  letter-spacing: 3px;
+   
+  font-size: 12px;
+  color: #1e1f1f;
+  font-weight: lighter;
+  
+}
+.info a:hover{
+  text-decoration: none;
+  color: red;
+}
+.fa.fa-arrow-right{
+  font-weight: lighter;
+ font-size: 12px; 
+}
+.info p{
+  color: #1e1f1f;
+}
+
 #buttonModel{
     text-transform: initial;
     font-weight: 550;
@@ -145,7 +179,7 @@
   text-align: right;
   /* background-color: blue; */
 }
-i.fa {
+.icons i.fa {
     border: 1px solid red;
     background-color: red;
     border-radius: 50%;
