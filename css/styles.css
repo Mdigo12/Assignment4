@@ -247,12 +247,22 @@ footer{
        
   }
   .carousel-caption h2{
+    animation: myfirst 5s 2;
+  animation-direction: alternate;
+    font-size: 300%;
     color: yellow;
     font-family: 'Noto Serif JP', serif;
     font-size: xx-large;
     font-weight: 900;
     font-size: 300%;
     /* font-weight: bolder; */
+  }
+  @keyframes myfirst {
+    0%   {background: red; left: 0px; top: 0px;}
+    25%  {background: yellow; left: 200px; top: 0px;}
+    50%  {background: blue; left: 200px; top: 200px;}
+    75%  {background: green; left: 0px; top: 200px;}
+    100% {background: red; left: 0px; top: 0px;}
   }
   .carousel-caption p{
     width: 50%;
