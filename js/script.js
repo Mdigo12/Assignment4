@@ -18,15 +18,19 @@ $(document).ready(function(){
    $("button#menuIcon").hover(function(){
     //    $(this).css("background-color", "#cccccc");
  
-    alert("Welcome");
+    // alert("Welcome");
       
 
    });
-   $('.carousel-inner .carousel-item').on('slide.bs.carousel', function () {
-     $('h2').addClass('animated fadeInLeft');
+   $('.carousel').carousel(
+   $(".carousel-inner .carousel-item").on('slid.bs.carousel', function () {
+     $('h2').addClass('animated bounceInDown');
+    
+    
 
     // do something…
   })
+  );
 
 
 });
