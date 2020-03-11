@@ -22,6 +22,11 @@ $(document).ready(function(){
       
 
    });
+   $('.carousel-inner .carousel-item').on('slide.bs.carousel', function () {
+     $('h2').addClass('animated fadeInLeft');
+
+    // do something…
+  })
 
 
 });
