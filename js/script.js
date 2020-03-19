@@ -31,6 +31,14 @@ $(document).ready(function(){
     // do something…
   })
   );
+  $('.pages a').click(function(){
+    console.log(this)
+    $('.headerMain').load('/products.html');
+    $(this)("nav").append($(".mainHeader"))
+    alert("welcome to our products")
+
+  });
+  $('.products nav').append()
 
 
 });
